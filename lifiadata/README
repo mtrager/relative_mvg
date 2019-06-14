@@ -1,0 +1,47 @@
+This directory contains 3 sub-directories :
+
+House : contains two files :
+		       1- images_seq.tar.gz: contains a sequence of nine grey
+		          level images of the scene house. These images were
+			  used for reconstruction experiments, the tracked
+			  points of this sequence can be found in house.tar.gz
+		       2- house.tar.gz: a set of date (tracked and 3D
+		          reconstruction) cooresponding to the image sequence
+			  of images_seq.tar.gz, it contains its own README.
+
+Bridge : contains
+             1- a sequence of 3 images of an outdour scene (Grenoble, France)
+	        bridge_1.pbm, bridge_2.pbm and bridge_3.pbm.
+	     2- a pair of rectified images: bridge_1_2.rec.pbm (bridge_1.pbm
+	        and bridge_2.pbm) with some epipolar lines, note that for that
+		case the epipolar lines are horizontal.
+	     3- three files: track1, track2 and track3 containing tracked 2D
+	        images coordinates through the images bridge_1.pbm,
+		bridge_2.pbm and bridge_3.pbm respectively.
+	     4- a set of fundamental matrices relating image pairs.
+
+Tribunal : contains
+             1- an image pair of an outdour scene (Grenoble, France)
+	        trib_1.pbm and trib_2.pbm.
+	     2- the same image pair : trib_1_2.pbm (trib_1.pbm and trib_2.pbm)
+	        with some epipolar lines.
+	     3- the same image pair but  after rectification: trib_1_2.rec.pbm
+	        (trib_1.pbm and trib_2.pbm) with some epipolar lines, note
+		that for that case the epipolar lines are horizontal.
+	     4- two files: track1 and track2 containing tracked 2D
+	        images coordinates through the images trib_1.pbm and
+		trib_2.pbm respectively.
+	     5- a set of fundamental matrices relating image pairs.
+
+
+PS: 1- a pair of images is said rectified when the images are transformed
+       such that the epipolar lines are horizontal.
+    2- all images are in pbm format and have the suffix .pbm, they could be
+       read using xv software.
+
+
+###############################################
+For more information, contact me at the following e-mail: boufama@imag.fr
+###############################################
+
+

@@ -1,0 +1,16 @@
+These are data for the house.
+
+2D points: pt_2D1, pt_2D2, ....,pt_2D9 
+9 files contain the tracked points from the first image till the last one.
+each file contains a set of 2D points which are not necessary in the same
+order, each 2D point is identified by its number which preceeds the image
+coordinates.
+
+3D points: pt_3D
+this file contains the reconstructed 3D coordinates obtained by our method. 
+The number preceeding each point is the same number used for 2D point.
+
+An image of the scene: house.ps
+this file contains an image of our scene, it is in postscript format.
+
+BouBakeur Boufama--------------->boufama@lifia.imag.fr
